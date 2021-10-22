@@ -3,7 +3,10 @@ autor=document.getElementById("autor");
 contenido=document.getElementById("contenido");
 
 boton=document.getElementById("boton");
-
+volverLista=document.getElementById("volverLista");
+volverLista.addEventListener('click', function(){
+    window.location="listaPost.html";
+})
 
 
 boton.addEventListener('click', comprobar);

@@ -103,6 +103,7 @@ function enviarDatos(){
     peticion.open('POST',"http://localhost:3000/users");
     peticion.setRequestHeader('Content-type', 'application/json');
     peticion.send(JSON.stringify(nuevoUsuario));
+    window.location="listaPost.html";
 
 }
 
